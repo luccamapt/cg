@@ -44,7 +44,7 @@ Destacando as linguagens e documentações que contribuiram para a elaboração 
 
 ## 🚀 Executando o projeto
 
-### [Atividade 01](https://github.com/luccamapt/cg/Atividade01)
+### [Atividade 01](https://github.com/luccamapt/cg/tree/main/Atividades/Atividade01)
 
 - Para ter acesso às imagens geradas, é possível compilar os arquivos extensão .cpp com o [g++](https://devdocs.io/gcc~12/), do GNU Compiler Collection no Linux ou WSL (Windows)
 - Como o arquivo é gravado no fluxo de saída padrão, é preciso redirecioná-lo para um arquivo de imagem. Normalmente, isso é feito na linha de comando usando o operador de redirecionamento ">". No Linux/WSL ou Mac, podemos fazer o seguinte:
@@ -54,7 +54,7 @@ Destacando as linguagens e documentações que contribuiram para a elaboração 
   Outras instruções podem ser conferidas na documentação do [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
 - Ao fim, a imagem com extensão .ppm pode ser convertida para outras extensões mais conhecidas ou visualizadas em aplicativos e sites online como o [PPM Viewer](https://www.cs.rhodes.edu/welshc/COMP141_F16/ppmReader.html)
 
-### [Atividade 02](https://github.com/luccamapt/cg/Atividade02)
+### [Atividade 02](https://github.com/luccamapt/cg/tree/main/Atividades/Atividade02)
 Nessa atividade foram aprimorada as classes para armazenar vetores geométricos e cores. Em muitos sistemas esses vetores são 4D (posição 3D mais uma coordenada homogênea para geometria, ou RGB mais um componente de transparência alfa para cores).
 
 Inspirado no [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html), usaremos a classe 'Vec3' como base para locais, direções, deslocamentos e o que for necessário (exceto cores).
