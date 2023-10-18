@@ -4,9 +4,9 @@
 
 <!---Shields em: https://shields.io --->
 
-![GitHub repo size](https://img.shields.io/github/repo-size/luccamapt/cg?style=for-the-badge&label=tamanho%20do%20repo&color=red)
-![GitHub contributors](https://img.shields.io/github/contributors/luccamapt/cg?style=for-the-badge&label=colaboradores&color=red)
-![GitHub stars](https://img.shields.io/github/stars/luccamapt/cg?style=for-the-badge&label=estrelas&color=red)
+![GitHub repo size](https://img.shields.io/github/repo-size/luccamapt/cg?style=for-the-badge&label=tamanho%20do%20repo&color=ffb200)
+![GitHub contributors](https://img.shields.io/github/contributors/luccamapt/cg?style=for-the-badge&label=colaboradores&color=ffb200)
+![GitHub stars](https://img.shields.io/github/stars/luccamapt/cg?style=for-the-badge&label=estrelas&color=ffb200)
 
 <!-- LOGO -->
 <br />
@@ -44,13 +44,22 @@ Destacando as linguagens e documentações que contribuiram para a elaboração 
 
 ## 🚀 Executando o projeto
 
-- Para ter acesso às imagens geradas até aqui, é possível compilar os arquivos extensão .cpp com o [g++](https://devdocs.io/gcc~12/), do GNU Compiler Collection no Linux ou WSL (Windows)
+### [Atividade 01](https://github.com/luccamapt/cg/Atividade01)
+
+- Para ter acesso às imagens geradas, é possível compilar os arquivos extensão .cpp com o [g++](https://devdocs.io/gcc~12/), do GNU Compiler Collection no Linux ou WSL (Windows)
 - Como o arquivo é gravado no fluxo de saída padrão, é preciso redirecioná-lo para um arquivo de imagem. Normalmente, isso é feito na linha de comando usando o operador de redirecionamento ">". No Linux/WSL ou Mac, podemos fazer o seguinte:
   ```
   build/inOneWeekend > image.ppm
   ```
   Outras instruções podem ser conferidas na documentação do [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
 - Ao fim, a imagem com extensão .ppm pode ser convertida para outras extensões mais conhecidas ou visualizadas em aplicativos e sites online como o [PPM Viewer](https://www.cs.rhodes.edu/welshc/COMP141_F16/ppmReader.html)
+
+### [Atividade 02](https://github.com/luccamapt/cg/Atividade02)
+Nessa atividade foram aprimorada as classes para armazenar vetores geométricos e cores. Em muitos sistemas esses vetores são 4D (posição 3D mais uma coordenada homogênea para geometria, ou RGB mais um componente de transparência alfa para cores).
+
+Inspirado no [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html), usaremos a classe 'Vec3' como base para locais, direções, deslocamentos e o que for necessário (exceto cores).
+
+Dessa forma, foram criada uma nova classe de cor, chamada CorA, que carrega um atriburo Alpha (a) para a transparência/opacidade da cor, similar ao que acontece no padrão RGBA. Além desta, agora podemos definir formas tridimensionais e posicioná-las, com base no 'Vec3'.
 
 <p align="right"><a href="#top">↑</a></p>
 
@@ -59,8 +68,10 @@ Destacando as linguagens e documentações que contribuiram para a elaboração 
 O projeto ainda está em desenvolvimento de acordo com a sequência de atividades. Ainda assim, as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [ ] Otimização do código de Pixel Art com Classes e métodos.
-- [ ] Implementação de um método para definir aspect ratio e proporção das imagens
-- [ ] Novas funções para geração de "padrões" de desenhos (retas, círculos)
+- [ ] Implementação de um método para definir aspect ratio e proporção das imagens.
+- [ ] Novas funções para geração de "padrões" de desenhos (retas, círculos).
+- [ ] Criação de um "espaço 3D" para posicionar objetos.
+- [ ] Otimização dos testes unitários.
 
 <p align="right"><a href="#top">↑</a></p>
 
