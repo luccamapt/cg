@@ -58,19 +58,19 @@ Destacando as linguagens e documentações que contribuiram para a elaboração 
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/luccamapt/cg/tree/main/Atividades/Atividade01/japan/japan.png" width="100px;" alt="Bandeira do Japão"/><br>
+      <img src="Atividades/Atividade01/japan/japan.png" height="100px;" alt="Bandeira do Japão"/><br>
       <sub>
         <b>Japão</b>
       </sub>
     </td>
     <td align="center">
-      <img src="https://github.com/luccamapt/cg/tree/main/Atividades/Atividade01/mario/mario.png" width="100px;" alt="Super Mario"/><br>
+      <img src="Atividades/Atividade01/mario/mario.png" height="100px;" alt="Super Mario"/><br>
       <sub>
         <b>Mario</b>
       </sub>
     </td>
     <td align="center">
-      <img src="https://github.com/luccamapt/cg/tree/main/Atividades/Atividade01/triangulo/triangulo.png" width="100px;" alt="Triângulo Vermelho"/><br>
+      <img src="Atividades/Atividade01/triangulo/triangulo.png" height="100px;" alt="Triângulo Vermelho"/><br>
       <sub>
         <b>Triângulo</b>
       </sub>
@@ -99,6 +99,23 @@ Nessa atividade o objetivo foi implementar um sistema simples de renderização 
 Dessa maneira, foram incluídas as classes Esfera e Triangulo representando objetos tridimensionais, além da utilização das classes Imagem, Cor, Vec3, e Raio para a manipulação de dados necessários.
 
 Foi configurada uma cena simples com uma esfera e um triângulo com o cálculo das interseções entre raios e objetos na cena. para uma renderização atual simplificada.
+
+<p align="right"><a href="#top">↑</a></p>
+
+## 📽️ Projeto Final
+
+O projeto final realizado em grupo pode ser visualizado no [Github do Mateus Vargas](https://github.com/matheusvvb-19/CG_2023-2/tree/main/ProjetoFinal).
+
+A cena construída apresenta um cubo metálico posicionado na origem, entre duas esferas - sendo uma delas de vidro e, a outra, difusa. As esferas se movimentam horizontalmente, enquanto a câmera também se move parcialmente ao redor dos objetos, voltando ao seu ponto inicial. A animação contém 5 segundos e apresenta 10 frames por segundo, totalizando 50 frames, os quais foram unidos através da ferramenta online [Clideo](https://clideo.com/pt/video-maker).
+
+A seguir, estão listados os valores testados, com acesso ao vídeo produzido.
+
+* [image_width 144](https://drive.google.com/file/d/1TD5ir_JYE_QMG4NB8rd6F6YlKBYYVpVu/view?usp=drive_link)
+* [image_width 320](https://drive.google.com/file/d/1Cq4PY9jNX12W1-8nP-t8k_wI4yMGPuB8/view?usp=drive_link)
+* [image_width 500](https://drive.google.com/file/d/1nLQneh7DMxCckhW7keG_ljAWfTYAhDE3/view?usp=drive_link)
+* [image_width 1280](https://drive.google.com/file/d/1CoT6I3p21mKlC8XibMZ8JRoH6PplwK8N/view?usp=drive_link)
+
+Todos os vídeos podem ser encontrados no [Google Drive](https://drive.google.com/drive/folders/18PHfVBaKgD7IGaDz2KPG_7jaJL1Chcd8?usp=sharing).
 
 <p align="right"><a href="#top">↑</a></p>
 
